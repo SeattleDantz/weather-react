@@ -1,0 +1,10 @@
+.CurrentLocation .current-loc-button {
+  transition: all 200ms ease-in;
+  font-size: 15px;
+  margin-top: 4px;
+  padding: 3px 5px;
+  display: inline;
+}
+.CurrentLocation .current-loc-button:hover {
+  cursor: pointer;
+}

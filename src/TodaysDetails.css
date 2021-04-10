@@ -1,0 +1,31 @@
+.TodaysDetails .city {
+  font-size: 33px;
+  font-weight: 900;
+  font-variant-caps: small-caps;
+  line-height: 75px;
+}
+
+.TodaysDetails .humidity-wind {
+  flex: 0 10 auto;
+  padding-top: 108px;
+  text-align: left;
+}
+
+.TodaysDetails .selection {
+  margin-left: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.TodaysDetails img {
+  width: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.TodaysDetails .current-icon {
+  display: inline;
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 40px;
+}

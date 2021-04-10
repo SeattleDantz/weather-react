@@ -1,15 +1,28 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Weather from "./Weather";
+import Search from "./Search";
+import SearchButton from "./SearchButton";
+import CurrentLocation from "./CurrentLocation";
+import UnitPicker from "./UnitPicker";
+import TodaysWeather from "./TodaysWeather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Weather city="Seattle" />
-      </header>
+      <div className="row">
+        <div className="col-6">
+          <Search />
+        </div>
+        <div className="col-2">
+          <SearchButton />
+        </div>
+        <div className="col-2">
+          <CurrentLocation />
+        </div>
+        <div className="col-2">
+          <UnitPicker />
+        </div>
+      </div>
+      <TodaysWeather />
     </div>
   );
 }
-
-export default App;

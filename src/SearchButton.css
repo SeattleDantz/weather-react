@@ -1,0 +1,12 @@
+.SearchButton {
+  display: inline;
+  margin-left: 4px;
+  color: white;
+  font-size: 22px;
+  width: 3%;
+}
+
+.SearchButton:hover {
+  cursor: pointer;
+  color: #102746;
+}

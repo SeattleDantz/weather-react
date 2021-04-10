@@ -1,0 +1,29 @@
+.UnitPicker {
+  margin-top: 4px;
+}
+.UnitPicker .farenheit,
+.celsius {
+  display: inline;
+  font-size: 15px;
+  transition: all 200ms ease-in;
+}
+
+.UnitPicker .celsius {
+  margin-left: 1%;
+}
+
+.UnitPicker .f-unit-picked,
+.c-unit-picked {
+  color: white;
+}
+
+.UnitPicker .f-unit-unpicked,
+.c-unit-unpicked {
+  color: darkslategrey;
+}
+
+.UnitPicker .farenheit:hover,
+.celsius:hover {
+  cursor: pointer;
+  color: white;
+}
