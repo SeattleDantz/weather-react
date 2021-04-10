@@ -15,10 +15,10 @@ export default function Weather(props) {
     <div className="Weather">
       <Loader
         type="Puff"
-        color="#00BFFF"
-        height={100}
-        width={100}
-        timeout={3000} //3 secs
+        color="yellow"
+        height={50}
+        width={50}
+        timeout={10000} //3 secs
       />
       <h2>
         The weather in {props.city} is {temperature}℉.
