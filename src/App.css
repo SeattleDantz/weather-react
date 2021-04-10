@@ -10,7 +10,12 @@
   margin: 0 auto;
 }
 
-ul {
+.App ul {
   list-style-type: none;
   font-size: 20px;
+}
+
+.App footer {
+  text-align: center;
+  font-size: 14px;
 }

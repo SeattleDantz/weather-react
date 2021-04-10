@@ -23,6 +23,12 @@ export default function App() {
         </div>
       </div>
       <TodaysWeather />
+      <footer>
+        <a href="https://github.com/SeattleDantz/weather-react" target="blank">
+          Open-source code
+        </a>{" "}
+        by Tricia Brigham
+      </footer>
     </div>
   );
 }
